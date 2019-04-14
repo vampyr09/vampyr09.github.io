@@ -1,5 +1,6 @@
 ---
+layout: post
 title: topic title
 ---
 
-## Topic
+# {{ page.title }}

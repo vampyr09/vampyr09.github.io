@@ -1,7 +1,8 @@
 ---
+layout: post
 title: Test title
 ---
 
-# Test
+# {{ page.title }}
 
 Test
