@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Test
 ---
-
-<div>
-
-	<ul>
-		{% for post in site.posts %}
-		  <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}	
-	</ul>
-
+	
+<div class="blog-content">
+	{% assign lastPost = site.posts.first %}
+	<div class="title">
+		<h2>{{ lastPost.title }}</h2>
+		<span class="subtitle">{{ lastPost.author }}, {{ lastPost.date | date: "%d.%m.%Y" }} </span> 
+	</div>			
+	{{lastPost.content}}	
 </div>
+
+
+

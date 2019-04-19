@@ -1,0 +1,42 @@
+body {
+	font-family: 'Muli', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+}
+
+li {
+	list-style: none;
+}
+
+.title {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.title h2 {
+	letter-spacing: 0.2em;
+	color: #00AABB;
+}
+
+.subtitle {
+	letter-spacing: 0.1em;
+	color: #6F6F6F;
+	margin-bottom: 50px;
+}
+
+.container {
+	margin: 0px auto;
+	max-width: 1200px;
+}
+
+.blog-posts {
+	float: left;
+	width: 20%;
+	max-width: 200px;
+}
+
+.blog-content {
+	float: right;
+	width: 80%;
+	max-width: 750px;
+}
