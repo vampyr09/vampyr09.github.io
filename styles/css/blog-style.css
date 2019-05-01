@@ -1,3 +1,7 @@
+html {
+	overflow-y: scroll;
+}
+
 body {
 	font-family: 'Muli', sans-serif;
 	font-size: 12pt;
@@ -26,17 +30,28 @@ li {
 
 .container {
 	margin: 0px auto;
-	max-width: 1200px;
+	max-width: 1400px;
 }
 
 .blog-posts {
 	float: left;
-	width: 20%;
-	max-width: 200px;
+	width: 30%;
+	max-width: 400px;
 }
 
 .blog-content {
 	float: right;
-	width: 80%;
-	max-width: 750px;
+	width: 70%;
+	max-width: 900px;
+}
+
+h1, h2, h3 {
+	letter-spacing: 0.1em;
+	color: #00AABB;
+}
+
+.blog-footer {
+	position: fixed;
+	padding: 10px;
+	bottom: 0px;
 }
